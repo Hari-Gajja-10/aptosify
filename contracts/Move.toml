@@ -1,0 +1,12 @@
+[package]
+name = "music_players"
+version = "1.0.0"
+authors = ["Music Platform Team"]
+
+[addresses]
+music_players = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "main" }
+
+[dev-dependencies]
